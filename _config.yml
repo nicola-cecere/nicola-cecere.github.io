@@ -13,7 +13,7 @@ title                    : "Nicola Cecere"
 title_separator          : "-"
 name                     : &name "Nicola Cecere"
 description              : &description "Applied Scientist, Amazon"
-url                      : https://nicola-cecere.github.io  # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://nicolacecere.com  # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nicola-cecere/nicola-cecere.github.io"
 
