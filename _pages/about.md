@@ -1,49 +1,129 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
+excerpt: "Nicola Cecere"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I am an Applied Scientist at [Amazon](https://www.amazon.science/), where I build and deploy large-scale machine learning systems to optimize global hiring decisions as part of the Intelligent Talent Acquisition (ITA) team.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+Previously, I earned a **Double Master’s Degree with Honors** in Machine Learning and Data Science from **Politecnico di Milano** and **Universidad Politécnica de Madrid** through the EIT Digital program. My academic track blended strong technical training with a focus on **innovation and entrepreneurship**, which deepened my interest in startups and applied AI.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+My research spans **generative AI**, **uncertainty estimation**, **information retrieval**, **NLP**, **recommender systems**, and **LLM Optimization** with a hands-on emphasis on practical machine learning. I’ve published multiple peer-reviewed papers and was awarded **1st place in the 2023 ACM RecSys Challenge**. I enjoy working at the intersection of applied research and scalable system design, especially in areas where **LLMs and retrieval-based architectures** meet real-world constraints.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I'm particularly passionate about innovation, early-stage product development, and using AI to solve real business problems — often drawing from my experience contributing to AI-powered startup prototypes and RAG pipelines.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Selected Publications
+---
+- **Monte Carlo Temperature: a robust sampling strategy for LLM's uncertainty quantification methods**  
+  *TrustNLP @ NAACL 2025 and Quantify Uncertainty and Hallucination in Foundation Models @ ICLR 2025 Workshops*  
+  with Andrea Bacciu, Ignacio Fernández Tobías, Amin Mantrach  
+  [Paper](https://www.amazon.science/publications/monte-carlo-temperature-a-robust-sampling-strategy-for-llms-uncertainty-quantification-methods)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Leveraging Semantic Embeddings of User Reviews with Off‑the‑Shelf LLMs for Traditional Recommender Systems**  
+  *IIR 2024*  
+  with Andrea Pisani, Maurizio Ferrari Dacrema, Paolo Cremonesi  
+  [Paper](https://scholar.google.com/citations?view_op=view_citation&hl=it&user=GNcIKT0AAAAJ&citation_for_view=GNcIKT0AAAAJ:9yKSN-GCB0IC)
 
-**Markdown generator**
+- **Pre-Trained LLM Embeddings of Product Reviews for Recommendation**  
+  *IIR 2024 (co-author)*  
+  [Paper](https://scholar.google.com/citations?view_op=view_citation&hl=it&user=GNcIKT0AAAAJ&citation_for_view=GNcIKT0AAAAJ:u-x6o8ySG0sC)
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+- **Pessimistic Rescaling and Distribution Shift of Boosting Models for Impression-Aware Online Advertising Recommendation**  
+  *RecSys Challenge 2023 (co-author)*  
+  [Paper](https://dl.acm.org/doi/10.1145/3626221.3627288)
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Experience
+---
+- **Applied Scientist** @ Amazon  
+  *Edinburgh, UK (May 2025 – Present)*  
+  - Build and deploy ML models (GBDTs, two-tower, contextual bandits) to improve hiring outcomes at scale  
+  - Develop large-scale data pipelines with Apache Spark and AWS  
+  - Write production-grade Python code in cross-functional teams
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Corporate Relations & Software Engineer** @ Lead The Future  
+  *Remote (Mar 2025 – Present)*  
+  - Lead corporate sponsorships and fundraising initiatives  
+  - Develop a RAG-based solution for enhanced information access
+
+- **Applied Scientist Intern** @ Amazon  
+  *Madrid, Spain (Sep 2024 – Feb 2025)*  
+  - Researched uncertainty estimation and diverse generation in LLMs  
+  - Reduced batch inference time from 24h to 2h through optimization  
+  - First-author paper accepted at NAACL '25 and ICLR '25  
+  - Received “Inclined to Offer” and full-time return offer
+
+- **Machine Learning Research Student** @ Politecnico di Milano – ContentWise – RecSys Lab  
+  *Milan, Italy (Dec 2023 – Aug 2024)*  
+  - Developed LLM-based recommendation algorithms  
+  - Published two research papers, including a first-author contribution  
+  - Awarded honors for thesis on personalized content recommendation
+
+- **Founding AI Engineer** @ Mosaic (Remote Startup)  
+  *Nov 2023 – Sep 2024*  
+  - Designed scalable RAG systems for investment banking  
+  - Built training pipelines, led document analysis research  
+  - Contributed UI prototypes (Figma) and market validation strategy
+
+
+Education
+---
+- **M.Sc. in Computer Science and Engineering**  
+  *Politecnico di Milano & Universidad Politécnica de Madrid (2022–2024)*  
+  Graduated with honors in both universities.  
+  - Focus: Machine Learning, Data Science, Infrastructure for Large-Scale Data  
+  - EIT Digital specialization in Innovation and Entrepreneurship  
+  - Summer School: Technical University of Munich – Siemens
+
+- **B.Sc. in Computer Science and Engineering**  
+  *Politecnico di Milano (2019–2022)* 
+
+
+Projects & Competitions
+---
+- **1st Place – ACM RecSys Challenge 2023 (Academic leaderboard)**  
+  [GitHub](https://github.com/recsyspolimi/recsys-challenge-2023-sharechat)  
+  - Participated in a global competition hosted by ACM and ShareChat (400+M users)  
+  - Designed ML pipelines to predict ad installs based on user impressions
+
+- **Stock Market Time Series Prediction**  
+  [GitHub](https://github.com/nicola-cecere/Stock_Market_TS_Prediction)  
+  - Grade: 10/10 with honors  
+  - Forecasted Apple stock prices using LSTMs and CNNs over S&P 500 data
+
+- **Massively Parallel ML Algorithms**  
+  [GitHub](https://github.com/nicola-cecere/Massively-Parallel-ML)  
+  - Built scalable logistic regression classifier (1M-row botnet dataset)  
+  - Implemented parallel K-Means on MNIST using Apache Spark and MapReduce
+
+- **Summer School: TUM – Siemens (Data Trading Project)**  
+  - Managed industrial IoT data workflows and designed data architecture  
+  - Delivered a business creation and investor pitch
+
+- **Recommender Systems – PoliMi Competition**  
+  [GitHub](https://github.com/nicola-cecere/PolimiRecSys2022-23/tree/main)  
+  - Predicted user interaction with TV content  
+  - Ranked 2nd (public) and 3rd (private) out of 100+ teams
+
+- **Artificial Neural Networks & Deep Learning – PoliMi Competition**  
+  [GitHub](https://github.com/nicola-cecere/AnnDl-Polimi)  
+  - Graded 5/5 for all tasks  
+  - Built BLSTM for multivariate time series classification  
+  - Created a CNN-based leaf species classifier with transfer learning
+
+Honors & Awards
+---
+- **1st Place**, ACM RecSys Challenge 2023  
+- **EIT Digital Master's Scholarship**  
+- **Sergio Maffezzoni Merit Scholarship** (2024)  
+- **3rd Place**, Politecnico RecSys Competition (2022)
+
+
+Contact
+---
+I’m open to collaborations and discussions.
+📧 cecere DOT nicola2000 AT gmail DOT com  
